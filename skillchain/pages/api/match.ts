@@ -2,6 +2,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import OpenAI from 'openai';
 
+interface Profile {
+  name: string;
+  skillsOffered: string[];
+  skillsWanted: string[];
+}
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY!,
 });
@@ -21,7 +27,7 @@ Skills Offered: ${skillsOffered.join(', ')}
 Skills Wanted: ${skillsWanted.join(', ')}
 
 Candidates:
-${profiles.map((p: any, i: number) => `${i + 1}. ${p.name} (Offers: ${p.skillsOffered.join(', ')}, Wants: ${p.skillsWanted.join(', ')})`).join('\n')}
+${profiles.map((p: Profile, i: number) => `${i + 1}. ${p.name} (Offers: ${p.skillsOffered.join(', ')}, Wants: ${p.skillsWanted.join(', ')})`).join('\n')}
 
 Give the best 3 matches.`;
 
