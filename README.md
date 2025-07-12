@@ -8,6 +8,8 @@ Solution Miners
 👤 Yug Moradiya – moradiyayugs@gmail.com (Team Leader)  
 👤 Tanish Mahyavanshi – 23ce065@charusat.edu.in
 
+Video Link - https://drive.google.com/file/d/1wPpCE045tA4E40_AxtSP8VvsElA6uIEL/view?usp=sharing
+
 ---
 
 ## 🚀 Problem Statement (Official)
