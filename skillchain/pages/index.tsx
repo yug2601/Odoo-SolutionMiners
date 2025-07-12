@@ -5,7 +5,7 @@ import { collection, getDocs } from 'firebase/firestore';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
-  const { user } = useAuth();
+  const auth = useAuth();
   const [profiles, setProfiles] = useState<any[]>([]);
 
   useEffect(() => {
@@ -17,6 +17,9 @@ export default function Home() {
 
     fetchProfiles();
   }, []);
+
+  if (!auth) return null;
+  const { user } = auth;
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
