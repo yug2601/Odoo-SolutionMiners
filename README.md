@@ -36,7 +36,7 @@ It intelligently matches users based on **skills they offer and want**, encourag
 ✅ 📊 Leaderboard of Top Skill Sharers  
 ✅ 🛠️ Admin Dashboard for Moderation  
 ✅ 🌙 Dark Mode Toggle  
-✅ 🏅 Public Badge Sharing Page (`/badges/[uid]`)  
+✅ 🏅 Public Badge Sharing Page
 ✅ 💡 Onboarding Tooltips
 
 ---
