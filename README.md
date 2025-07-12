@@ -1,31 +1,52 @@
 # Odoo-SolutionMiners
-Team:
-1)Yug Moradiya - moradiyayugs@gmail.com (Team Leader)
-2)Tanish Mahyavanshi - 23ce065@charusat.edu.in
+# 💡 SkillChain – AI-Powered Skill Swapping Platform
 
-Problem Statement (Official)
+**Team Name:**  
+Solution Miners
 
-> Skill Swap Platform
-Develop a mini application that enables users to list their skills and request others in return.
-Includes user profiles, skill listings, search, request/accept swap flows, feedback after swap, and optional admin tools.
->
-> 
-> 🌟 ✅ Chosen Solution: "SkillChain"
+**Team Members:**  
+👤 Yug Moradiya – moradiyayugs@gmail.com (Team Leader)  
+👤 Tanish Mahyavanshi – 23ce065@charusat.edu.in
 
-> SkillChain is an AI-powered, decentralized skill exchange platform.
-It matches users with complementary skills using OpenAI, rewards successful swaps with verifiable skill badges (SkillTokens), and builds community trust through ratings and a public leaderboard.
->
-> 
-> 🧠 Key Features of SkillChain:
+---
 
-✅ Google Auth + Profile with Skills Offered/Wanted
+## 🚀 Problem Statement (Official)
 
-✅ AI Matchmaking using OpenAI
+> **Skill Swap Platform**  
+> Develop a mini application that enables users to list their skills and request others in return.  
+> Includes user profiles, skill listings, search, request/accept swap flows, feedback after swap, and optional admin tools.
 
-✅ Real-time Swap Requests + Notifications
+---
 
-✅ Feedback & SkillToken Badges
+## 🌟 Our Solution – “SkillChain”
 
-✅ Leaderboard of Top Swappers
+**SkillChain** is an AI-powered, decentralized skill exchange platform that allows people to **grow through learning, not spending**.
 
-✅ Admin Dashboard for Moderation
+It intelligently matches users based on **skills they offer and want**, encourages trust through **SkillToken badges**, and tracks contributions via a **leaderboard**.
+
+---
+
+## 🧠 Key Features
+
+✅ Google Sign-in with Firebase  
+✅ Create profile with skills offered, wanted & availability  
+✅ 🔍 AI Matchmaking using OpenAI  
+✅ 🔁 Real-time Swap Requests & Notifications  
+✅ ⭐ Feedback System + SkillToken Badges  
+✅ 📊 Leaderboard of Top Skill Sharers  
+✅ 🛠️ Admin Dashboard for Moderation  
+✅ 🌙 Dark Mode Toggle  
+✅ 🏅 Public Badge Sharing Page (`/badges/[uid]`)  
+✅ 💡 Onboarding Tooltips
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js + Tailwind CSS  
+- **Backend**: Firebase (Auth, Firestore, Storage)  
+- **AI Matching**: OpenAI (GPT-3.5)  
+- **Deployment**: Vercel  
+- **Other**: Firestore Rules, Toasts, Framer Motion, Icons
+
+---
