@@ -1,7 +1,7 @@
 # Odoo-SolutionMiners
 # 💡 SkillChain – AI-Powered Skill Swapping Platform
 
-**Team Name:**  
+**Team Name:**
 Solution Miners
 
 **Team Members:**  
